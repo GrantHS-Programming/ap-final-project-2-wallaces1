@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Trees_SetA_albedoCutout
-  m_Shader: {fileID: 10509, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 14000, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _WORLDSPACEOFFSET_ON
@@ -21,11 +21,23 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Albedo_MaskA:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpSpecMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -52,7 +64,10 @@ Material:
     m_Ints: []
     m_Floats:
     - _AO: 2.4
+    - _AO_power: 0.8
+    - _Adjust: 0
     - _BaseLight: 0.35
+    - _Cull: 2
     - _CustomColorAmount: 0
     - _Cutoff: 0.3
     - _DarknessOnSundown: 0.75
@@ -60,23 +75,29 @@ Material:
     - _Gloss: 0.2
     - _MotionRange: 0.5
     - _MotionSpeed: 1
+    - _NormalMapPower: 1
     - _Occlusion: 7.5
     - _SelfIllum: 0
+    - _SimpleContrast: 0
     - _SquashAmount: 1
     - _SwitchColumn: 0
     - _SwitchRow: 0
+    - _ToggleSwitch0: 0
     - _TransAmbient: 0.2
     - _TransDirect: 1
     - _TransNormalDistortion: 0.1
     - _TransScattering: 2
     - _TransShadow: 0.9
     - _Translucency: 1
+    - _WindQuality: 0
     - _WorldSpaceOffset: 1
     - __dirty: 1
     m_Colors:
+    - _Base_Color: {r: 1, g: 1, b: 1, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _CustomColorHigh: {r: 0.5528651, g: 0.875, b: 0.4503677, a: 0}
     - _CustomColorLow: {r: 0.13624567, g: 0.33088237, b: 0.13758796, a: 0}
+    - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _SpecularTone: {r: 0.058823504, g: 0.056660876, b: 0.056660876, a: 0}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
